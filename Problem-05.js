@@ -12,7 +12,7 @@ function analyzeText(str) {
     return current.length > longest.length ? current : longest;
   });
 
-  const rsl = "longwords: " + maxWord + "token: " + count;
+  const rsl = "longwords: " + maxWord + " token: " + count;
 
   return rsl;
 }
